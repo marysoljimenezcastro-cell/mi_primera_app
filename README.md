@@ -1,7 +1,14 @@
 
 # Cursos ADSO
-## Integrante
-- Mary Sol Jiménez
+# Cursos ADSO
+
+## Ficha del programa
+**Programa:** Análisis y Desarrollo de Software (ADSO) Ficha 3388984.
+
+**Aprendiz:** Mary Sol Jiménez.
+
+## Descripción
+Aplicación móvil desarrollada en Flutter como proyecto de formación del SENA.
 
 ## Descripción
 Aplicación móvil desarrollada en Flutter como proyecto de formación del programa Análisis y Desarrollo de Software (ADSO) del SENA.
