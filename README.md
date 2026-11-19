@@ -1,12 +1,9 @@
 
 # Cursos ADSO
-# Cursos ADSO
 
-## Ficha del programa
-**Programa:** Análisis y Desarrollo de Software (ADSO) Ficha 3388984.
+**Aprendiz:** Mary Sol Jiménez
 
-**Aprendiz:** Mary Sol Jiménez.
-
+**Programa:** Análisis y Desarrollo de Software Ficha 3388984.
 ## Descripción
 Aplicación móvil desarrollada en Flutter como proyecto de formación del SENA.
 
@@ -49,11 +46,17 @@ La aplicación permite iniciar sesión, consultar una lista de cursos y visualiz
 ### Flutter Devices
 ![Flutter Devices](EVIDENCIAS/flutter_devices.png)
 
-## Ejecución del proyecto
+## Instrucciones de ejecución
 
-Para ejecutar la aplicación, abrir una terminal en la carpeta del proyecto y ejecutar:
+Para ejecutar el proyecto en un equipo que tenga Flutter instalado:
 
-```bash
-flutter pub get
-flutter run
-```
+1. Clonar o descargar el repositorio de GitHub.
+2. Abrir la carpeta del proyecto en Visual Studio Code.
+3. Abrir una terminal en la carpeta del proyecto.
+4. Ejecutar el siguiente comando para instalar las dependencias:
+
+   flutter pub get
+
+5. Ejecutar la aplicación con:
+
+   flutter run
