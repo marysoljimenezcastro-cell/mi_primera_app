@@ -1,5 +1,7 @@
 
 # Cursos ADSO
+## Integrante
+- Mary Sol Jiménez
 
 ## Descripción
 Aplicación móvil desarrollada en Flutter como proyecto de formación del programa Análisis y Desarrollo de Software (ADSO) del SENA.
