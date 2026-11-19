@@ -15,7 +15,7 @@ class MiApp extends StatelessWidget {
       title: 'Cursos ADSO',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       home: const LoginView(),

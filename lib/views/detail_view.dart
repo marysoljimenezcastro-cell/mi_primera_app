@@ -60,6 +60,11 @@ class _DetailViewState extends State<DetailView> {
           Row(
             children: [
               const Icon(Icons.schedule),
+              const SizedBox(height: 12),
+              Chip(
+                avatar: const Icon(Icons.school),
+                label: Text(curso.modalidad),
+              ),
               const SizedBox(width: 8),
               Text('${curso.horas} horas'),
             ],

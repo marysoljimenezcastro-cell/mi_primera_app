@@ -3,12 +3,14 @@ class Curso {
   final String instructor;
   final int horas;
   final String descripcion;
+  final String modalidad;
 
   const Curso({
     required this.nombre,
     required this.instructor,
     required this.horas,
     required this.descripcion,
+    required this.modalidad,
   });
 }
 
@@ -19,6 +21,7 @@ const List<Curso> cursosDemo = [
     horas: 120,
     descripcion:
         'Fundamentos de lógica, algoritmos y programación orientada a objetos.',
+    modalidad: 'Presencial',
   ),
   Curso(
     nombre: 'Bases de datos',
@@ -26,6 +29,7 @@ const List<Curso> cursosDemo = [
     horas: 90,
     descripcion:
         'Modelado relacional, SQL y consultas sobre MariaDB y PostgreSQL.',
+    modalidad: 'Virtual',
   ),
   Curso(
     nombre: 'Desarrollo móvil',
@@ -33,17 +37,28 @@ const List<Curso> cursosDemo = [
     horas: 100,
     descripcion:
         'Construcción de aplicaciones móviles multiplataforma con Flutter.',
+    modalidad: 'Virtual',
   ),
   Curso(
     nombre: 'Redes y conectividad',
     instructor: 'Instructor 4',
     horas: 80,
     descripcion: 'Direccionamiento IP, enrutamiento y configuración de redes.',
+    modalidad: 'Presencial',
   ),
   Curso(
     nombre: 'Pruebas de software',
     instructor: 'Instructor 5',
     horas: 60,
     descripcion: 'Diseño de casos de prueba y pruebas automatizadas.',
+    modalidad: 'Virtual',
+  ),
+  Curso(
+    nombre: 'Desarrollo web',
+    instructor: 'Instructor 6',
+    horas: 100,
+    descripcion:
+        'Creación de páginas y aplicaciones web con HTML, CSS y JavaScript.',
+    modalidad: 'Virtual',
   ),
 ];
